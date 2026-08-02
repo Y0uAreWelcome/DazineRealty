@@ -10,3 +10,4 @@ If updating the HTML files manually is becoming too tedious look into a Static S
 
 Add analytics
 
+https://dazinerealty.homes/
