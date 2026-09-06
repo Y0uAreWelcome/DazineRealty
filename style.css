@@ -616,7 +616,7 @@ footer p {
   margin: 0 auto;
 }
 
-.intero-logo-link {
+footer .intero-logo-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -630,11 +630,11 @@ footer p {
   background: white;
 }
 
-.intero-logo {
+footer .intero-logo-link .intero-logo {
   width: 100%;
   max-width: 190px;
   max-height: 54px;
-  margin: 12px auto 0;
+  margin: 0;
   object-fit: contain;
 }
 
