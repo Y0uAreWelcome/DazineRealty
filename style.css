@@ -616,6 +616,13 @@ footer p {
   margin: 0 auto;
 }
 
+.intero-logo {
+  width: min(180px, 60vw);
+  height: auto;
+  margin: 12px auto 0;
+  object-fit: contain;
+}
+
 .footer-content {
   margin-bottom: 12px;
 }
