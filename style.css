@@ -502,31 +502,33 @@ a:focus-visible {
   min-height: 210px;
 }
 
-.listing-coming-soon {
+.listings-badge-ribbon {
   position: absolute;
-  top: 118px;
-  left: 39%;
-  transform: rotate(-9deg);
-  display: inline-block;
+  top: 78px;
+  left: 44%;
+  transform: rotate(-12deg);
   background: linear-gradient(135deg, #ff5b5b 0%, #d91b2a 100%);
   color: #ffffff;
-  font-size: 0.58rem;
+  padding: 8px 18px;
+  border-radius: 4px;
+  box-shadow: 0 10px 18px rgba(179, 17, 25, 0.18);
+  clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.listings-badge-ribbon span {
+  display: block;
+  font-size: 0.56rem;
   font-weight: 800;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   line-height: 1;
-  padding: 8px 12px;
-  border-radius: 4px;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  box-shadow: 0 8px 16px rgba(179, 17, 25, 0.18);
   font-family: 'Segoe UI', 'Inter', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
   white-space: nowrap;
-  opacity: 0.98;
-  z-index: 2;
-  pointer-events: none;
 }
 
 .listing-card img {
