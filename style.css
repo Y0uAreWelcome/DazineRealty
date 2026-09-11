@@ -307,7 +307,7 @@ a:focus-visible {
 .about-grid,
 .contact-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
   gap: 24px;
 }
 
@@ -544,6 +544,17 @@ footer .rounded-coming-soon {
   margin-bottom: 40px;
 }
 
+.airtable-embed {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  min-height: 590px;
+  border: 1px solid #dfe7ee !important;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -770,6 +781,10 @@ footer .intero-logo-link .intero-logo {
 }
 
 @media (max-width: 640px) {
+  .airtable-embed {
+    min-height: 620px;
+  }
+
   .nav-links {
     width: 100%;
     justify-content: space-between;
