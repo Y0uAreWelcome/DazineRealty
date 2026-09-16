@@ -747,6 +747,12 @@ footer .intero-logo-link .intero-logo {
   display: block;
 }
 
+.youtube-social-icon {
+  width: 40px;
+  height: 40px;
+  margin: -6px;
+}
+
 .socials-block {
   margin-top: 16px;
 }
