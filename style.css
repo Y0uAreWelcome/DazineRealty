@@ -320,8 +320,12 @@ a:focus-visible {
   margin-top: 1.4em;
 }
 
+.broker-dre {
+  margin-top: 1.05em;
+}
+
 .contact-service {
-  margin-top: 2.4em;
+  margin-top: 3.2em;
 }
 
 .card-grid {
@@ -627,26 +631,43 @@ footer p {
   margin: 0 auto;
 }
 
-footer .intero-logo-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: min(220px, 80vw);
-  height: 72px;
-  margin: 12px auto 0;
-  padding: 8px 14px;
-  overflow: hidden;
-  border: 1px solid #d7e1eb;
-  border-radius: 8px;
-  background: white;
+footer p + p {
+  margin-top: 10px;
 }
 
-footer .intero-logo-link .intero-logo {
+.jetset-logo-wrap {
+  margin: 10px auto 12px;
+}
+
+.jetset-logo-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: min(360px, 85vw);
+  height: 110px;
+  margin: 12px auto 8px;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid rgba(17, 37, 59, 0.12);
+  box-shadow: 0 8px 18px rgba(17, 37, 59, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.jetset-logo-link:hover,
+.jetset-logo-link:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(17, 37, 59, 0.12);
+  border-color: rgba(17, 37, 59, 0.2);
+}
+
+.jetset-logo-image {
+  display: block;
   width: 100%;
-  max-width: 190px;
-  max-height: 54px;
-  margin: 0;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .footer-content {
