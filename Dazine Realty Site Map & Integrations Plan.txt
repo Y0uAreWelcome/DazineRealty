@@ -11,6 +11,8 @@
 | **Google Fonts** | Loads the Inter typeface. | All pages |
 | **Unsplash** | Supplies the home hero’s background photo. | `style.css` |
 | **GitHub Pages and GitHub Actions** | On a push to `main`, the workflow publishes the repository files to the `gh-pages` branch. | `.github/workflows/pages.yml` |
+| Make HQ | 
+| Claude projects Agent(s) | 
 
 The home page also links out to **Instagram, LinkedIn, YouTube, Zillow, and Yelp**. These are ordinary outbound profile links, not embedded APIs or plugins. The footer links to **Intero Real Estate Services**; its logo is a local image. The profile and footer links are in `index.html`.
 
